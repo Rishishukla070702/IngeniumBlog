@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/IngeniumBlog.git/static/css/main.246fd4c2.css",
-    "main.js": "/IngeniumBlog.git/static/js/main.2181909b.js",
-    "index.html": "/IngeniumBlog.git/index.html",
-    "main.246fd4c2.css.map": "/IngeniumBlog.git/static/css/main.246fd4c2.css.map",
-    "main.2181909b.js.map": "/IngeniumBlog.git/static/js/main.2181909b.js.map"
+    "main.css": "/IngeniumBlog/static/css/main.246fd4c2.css",
+    "main.js": "/IngeniumBlog/static/js/main.2181909b.js",
+    "index.html": "/IngeniumBlog/index.html",
+    "main.246fd4c2.css.map": "/IngeniumBlog/static/css/main.246fd4c2.css.map",
+    "main.2181909b.js.map": "/IngeniumBlog/static/js/main.2181909b.js.map"
   },
   "entrypoints": [
     "static/css/main.246fd4c2.css",
