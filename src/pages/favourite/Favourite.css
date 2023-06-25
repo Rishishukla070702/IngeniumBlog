@@ -1,0 +1,35 @@
+.favoritesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .favoritePost {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .favoritePostTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .favoritePostBody {
+    color: #555;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f;
+  }
+  

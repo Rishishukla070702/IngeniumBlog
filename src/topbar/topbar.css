@@ -1,0 +1,118 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  z-index: 999;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topRight img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/* Media Queries for Responsive Styling */
+@media screen and (max-width: 768px) {
+  .top {
+    height: 70px;
+  }
+
+  .topLeft,
+  .topRight {
+    flex: 2;
+  }
+
+  .topCenter {
+    flex: 8;
+  }
+
+  .topList {
+    justify-content: flex-start;
+  }
+
+  .topListItem {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top {
+    height: 80px;
+  }
+
+  .topLeft,
+  .topRight {
+    display: none;
+  }
+
+  .topCenter {
+    flex: 12;
+  }
+
+  .topListItem {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+
+  .topSearchIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
